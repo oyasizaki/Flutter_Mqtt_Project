@@ -32,8 +32,7 @@ class MainPage extends StatefulWidget {
   State<MainPage> createState() => _MainPageState();
 }
 
-
-// here we will decalre the variable inside a class which will decide the 
+// here we will decalre the variable inside a class which will decide the
 class _MainPageState extends State<MainPage> {
   late double xOffset;
   late double yOffset;
@@ -130,6 +129,8 @@ class _MainPageState extends State<MainPage> {
       ),
     );
   }
+
+// here we will name and link the pages and name the pages. But here we are using only Device page because this the only page for now.
 
   Widget getDrawerPage() {
     switch (item) {
